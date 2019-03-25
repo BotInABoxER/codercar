@@ -1,7 +1,7 @@
 # Project Rover
 Project Rover, the newest product from Bot-In-a-Box Educational Robotics!
 
-<a href="https://botinabox.ca"><img src="https://botinabox.ca/wp-content/uploads/2019/01/0.4.6-printed.jpg" align="center" height="310" width="500" ></a>
+<a href="https://botinabox.ca/wp-content/uploads/2019/03/project-rover-logo.png" align="center"></a>
 
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
