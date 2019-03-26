@@ -5,7 +5,7 @@ Project Rover, the newest product from Bot-In-a-Box Educational Robotics!
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
 
-Powered by an Orange Pi Zero, Project Rover is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 screws that can be used to mount any manner of sensors, servos, and electronics. 
+Powered by a Raspberry Pi Zero W, Project Rover is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 screws that can be used to mount any manner of sensors, servos, and electronics. 
 
 # BOM/Tools:
 
