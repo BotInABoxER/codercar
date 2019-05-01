@@ -1,11 +1,11 @@
 # Project Rover
 Project Rover, the newest product from Bot-In-a-Box Educational Robotics!
 
-<p align="center"><img src="https://botinabox.ca/wp-content/uploads/2019/03/project-rover-logo.png" alt="Project Rover's Logo"></p>
+<p align="center"><img src="https://projectrover.botinabox.ca/assets/images/0.5.1/og-image.jpg" alt="Project Rover's Logo"></p>
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
 
-Powered by a Raspberry Pi Zero W, Project Rover is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 screws that can be used to mount any manner of sensors, servos, and electronics. 
+Powered by a Raspberry Pi Zero W, Project Rover is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 screws that can be used to mount any manner of sensors, servos, and electronics.
 
 # BOM/Tools:
 
@@ -43,11 +43,11 @@ A MicroSD card - at least 8GB is recommended
 
 # Printing:
 
-In the STLs file, you'll find seven 3D models in the Stereolithography format. Most 3D Printers don't accept STLs directly, so you'll most likely need to use a slicer program like [Cura](https://ultimaker.com/en/products/ultimaker-cura-software) to export them to a GCODE file for the specific printer you're using. 
+In the STLs file, you'll find seven 3D models in the Stereolithography format. Most 3D Printers don't accept STLs directly, so you'll most likely need to use a slicer program like [Cura](https://ultimaker.com/en/products/ultimaker-cura-software) to export them to a GCODE file for the specific printer you're using.
 
 The files were designed to be printed without supports at a low-ish resolution, and their dimensions are in MM. By low-ish I mean about .2mm/layer. I printed these with a Wanhao Duplicator i3 using PLA at 193°C, if that means anything to you.
 
-First of all, print the Body, which is the main component of the Rover. It has mounts for four motors, two motor controllers, and a Raspberry Pi Zero WH. 
+First of all, print the Body, which is the main component of the Rover. It has mounts for four motors, two motor controllers, and a Raspberry Pi Zero WH.
 
 Secondly, the Top Mount screws on to the posts in the middle of the Rover, held on by four M3 screws. On top of this mount are screw holes for placing the Battery Box, as well as the Accelerometer. At this time, that's all that goes up there, though I'm working on thinking of what else I could put up there.
 
@@ -69,7 +69,7 @@ Alternatively, you could use something like PiNN Lite from [https://sourceforge.
 
 Screw in the Raspberry Pi Zero WH with four M2.5 screws, and plug it in (preferably with an AC adapter, since you don't want the battery bank to run out during setup).
 
-Find a way to SSH into the Raspberry Pi Zero WH. This can prove difficult, especially if you don't have a screen, keyboard, and mouse handy. One way to bypass this limitation is by connecting your Pi via a USB Ethernet plug to your router, then using a program like [Angry IP Scanner](https://angryip.org/download/) to find its IP address when it boots up. Alternatively, use some kind of UART-to-USB adapter with Putty from [https://www.putty.org/](https://www.putty.org/) to initiate a Serial connection - check Device Manager in Windows 10 to find the COM port to which you'll need to connect. Either way, you'll have to login as 'root' with the password 'dietpi.' 
+Find a way to SSH into the Raspberry Pi Zero WH. This can prove difficult, especially if you don't have a screen, keyboard, and mouse handy. One way to bypass this limitation is by connecting your Pi via a USB Ethernet plug to your router, then using a program like [Angry IP Scanner](https://angryip.org/download/) to find its IP address when it boots up. Alternatively, use some kind of UART-to-USB adapter with Putty from [https://www.putty.org/](https://www.putty.org/) to initiate a Serial connection - check Device Manager in Windows 10 to find the COM port to which you'll need to connect. Either way, you'll have to login as 'root' with the password 'dietpi.'
 
 One really nice thing about DietPi is that it does a lot of the setup busyork for you, updates, upgrades, and all that. Once you have the option to install software, go to the Optimized for DietPi section in DietPi-Software, select Node-RED and the packages for GPIO and I2C support. Again, I'll get to making a decent tutorial one of these days...
 
@@ -79,12 +79,29 @@ Click the three-bar button in the top-right of the window, and go to manage pall
 
 You can then fiddle around with the Raspberry Pi GPIO interface, turning pins on/off using Javascript (connect the pins from the L9110s to the proper pins on the Pi - GND to a GND pin, VCC to a 5V, and the other four pins from each controller to a GPIO pin (not GPIO 2 or 3 though; I'm pretty sure they're reserved for something).
 
-After you've bulit a decent program, you can have some fun watching the Rover roll around on the floor based on your specifications.
+After you've built a decent program, you can have some fun watching the Rover roll around on the floor based on your specifications.
 
+# Inspirations
+
+Project Rover is an open-source kit, based on these fine open-source 3D models:
+
+-[Magnetic/Suction Cup Breadboard Mount](https://www.thingiverse.com/thing:3127547) by [keyglitch](https://www.thingiverse.com/keyglitch/about)
+
+-[Wheel for DC Motor](https://www.thingiverse.com/thing:2804854) by [Anything_3D](https://www.thingiverse.com/Anything_3D/about)
+
+-[Arduino Robot Car Chassis 4WD](https://www.thingiverse.com/thing:2151514) by [sb43201](https://www.thingiverse.com/sb43201/about)
+
+-[HC-SR04 Ultrasonic Rangefinder Mounting Bracket](https://www.thingiverse.com/thing:936318) by [Matter153](https://www.thingiverse.com/Matter153/about)
+
+-[Parametric Support for MAX7219 + LED Matrix](https://www.thingiverse.com/thing:384588) by [Malphas](https://www.thingiverse.com/Malphas/about)
+
+-[Raspberry Pi Zero W Case](https://www.thingiverse.com/thing:2488316) by [mynameishamish](https://www.thingiverse.com/mynameishamish/about)
+
+Thank you fellow makers! If anybody that made these things sees this page, email me at [matthew@botinabox.ca](mailto:matthew@botinabox.ca) and I'll add your GitHub username or a link of your choosing to this list.
 
 # Coming Soon
 
-You're probably looking at the Top Mount and thinking that there's space to mount sensors, servos, an LED matrix, or really anything. Sometime in the near future I hope to release a semi-major update with mounts for an Arduino Nano, LED Matrix, LCD screen, continuous-rotation servo, and a CMOS camera, so be on the look-out for those. 
+You're probably looking at the Top Mount and thinking that there's space to mount sensors, servos, an LED matrix, or really anything. Sometime in the near future I hope to release a semi-major update with mounts for an Arduino Nano, LED Matrix, LCD screen, continuous-rotation servo, and a CMOS camera, so be on the look-out for those.
 
 Also, I'm still working on support for the MPU6050. I know there are a lot of libraries out there, some compatible with NodeJS, that support the board, but I haven't gotten around to testing them yet. When I do, I'll make sure to update this README.
 
@@ -93,4 +110,4 @@ At any rate, I hope you get some enjoyment out of this crazy kit, and that it ma
 Sincerely, Matthew Piercey
 
 
-**Disclaimer: This Readme includes Affilate Links**
+**Disclaimer: This Readme includes Affilate Links; see [Project Rover's Affiliate Link Disclaimer](https://projectrover.botinabox.ca/docs/setup/bom/materials.html)**
