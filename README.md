@@ -1,13 +1,13 @@
-# Project Rover
-Project Rover, the newest product from Bot-In-a-Box Educational Robotics!
+# codeRcar
+codeRcar, the newest product from Bot-In-a-Box Educational Robotics!
 
 <p style="text-align: center"><img src="https://projectrover.botinabox.ca/assets/images/0.5.1/og-image.jpg" alt="Project Rover's Logo"></p>
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
 
-Powered by a Raspberry Pi Zero W, Project Rover is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 and M2.5 screws that can be used to mount any manner of sensors, servos, and electronics.
+Powered by a Raspberry Pi Zero W, codeRcar is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 and M2.5 screws that can be used to mount any manner of sensors, servos, and electronics.
 
-Project Rover now has its own documentation website, so check it out at [https://projectrover.botinabox.ca](https://projectrover.botinabox.ca) for more information, including printing, assembly, and programming instructions.
+codeRcar now has its own documentation website, so check it out at [https://projectrover.botinabox.ca](https://projectrover.botinabox.ca) for more information, including printing, assembly, and programming instructions.
 
 # BOM/Tools:
 
@@ -92,7 +92,7 @@ Finally, if you want to just use the Pi Zero W with an older TV monitor that doe
 
 # Inspirations
 
-Project Rover is an open-source kit, based on these fine open-source 3D models:
+codeRcar is an open-source kit, based on these fine open-source 3D models:
 
 -[Magnetic/Suction Cup Breadboard Mount](https://www.thingiverse.com/thing:3127547) by [keyglitch](https://www.thingiverse.com/keyglitch/about)
 
@@ -161,7 +161,7 @@ All of the **Deka** parts above, plus:
 
 # Coming Soon
 
-Project Rover is currently in full-time, active developmnet, so expect things to change. Soon to come:
+codeRcar is currently in full-time, active developmnet, so expect things to change. Soon to come:
 
 - CMOS Camera Mount
 
@@ -176,6 +176,6 @@ At any rate, I hope you get some enjoyment out of this crazy kit, and that it ma
 Sincerely, Matthew Piercey
 
 
-**Disclaimer: This Readme includes Affilate Links; see [Project Rover's Affiliate Link Disclaimer](https://projectrover.botinabox.ca/docs/setup/bom/materials.html)**
+**Disclaimer: This Readme includes Affilate Links; see [codeRcar's Affiliate Link Disclaimer](https://projectrover.botinabox.ca/docs/setup/bom/materials.html)**
 
-**Disclaimer 2: Project Rover is an open-source, DIY project. It is not a product, and does not have a warranty. Bot-In-a-Box is not responsible for anything you do with these instructions, and Project Rover is available for use as-is. Create at your own risk.**
+**Disclaimer 2: codeRcar is an open-source, DIY project. It is not a product, and does not have a warranty. Bot-In-a-Box is not responsible for anything you do with these instructions, and codeRcar is available for use as-is. Create at your own risk.**
