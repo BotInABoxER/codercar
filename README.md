@@ -1,13 +1,13 @@
 # codeRcar
 codeRcar, the newest product from Bot-In-a-Box Educational Robotics!
 
-<p style="text-align: center"><img src="https://projectrover.botinabox.ca/assets/images/0.5.1/og-image.jpg" alt="Project Rover's Logo"></p>
+<p style="text-align: center"><img src="https://codercar.botinabox.ca/assets/images/0.5.1/og-image.jpg" alt="codeRcar's Logo"></p>
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
 
 Powered by a Raspberry Pi Zero W, codeRcar is a [DietPi](https://dietpi.com/)-compatible educational robotics kit that is modular, Wifi-enabled, works with Node-RED, and includes a lid with holes for M3 and M2.5 screws that can be used to mount any manner of sensors, servos, and electronics.
 
-codeRcar now has its own documentation website, so check it out at [https://projectrover.botinabox.ca](https://projectrover.botinabox.ca) for more information, including printing, assembly, and programming instructions.
+codeRcar now has its own documentation website, so check it out at [https://codercar.botinabox.ca](https://codercar.botinabox.ca) for more information, including printing, assembly, and programming instructions.
 
 # BOM/Tools:
 
@@ -176,6 +176,6 @@ At any rate, I hope you get some enjoyment out of this crazy kit, and that it ma
 Sincerely, Matthew Piercey
 
 
-**Disclaimer: This Readme includes Affilate Links; see [codeRcar's Affiliate Link Disclaimer](https://projectrover.botinabox.ca/docs/setup/bom/materials.html)**
+**Disclaimer: This Readme includes Affilate Links; see [codeRcar's Affiliate Link Disclaimer](https://codercar.botinabox.ca/docs/setup/bom/materials.html)**
 
 **Disclaimer 2: codeRcar is an open-source, DIY project. It is not a product, and does not have a warranty. Bot-In-a-Box is not responsible for anything you do with these instructions, and codeRcar is available for use as-is. Create at your own risk.**
