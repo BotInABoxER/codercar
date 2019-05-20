@@ -1,7 +1,7 @@
 # codeRcar
 codeRcar, the newest product from Bot-In-a-Box Educational Robotics!
 
-<p style="text-align: center"><img src="https://codercar.botinabox.ca/assets/images/0.5.1/og-image.jpg" alt="codeRcar's Logo"></p>
+<p style="text-align: center"><img src="https://raw.githubusercontent.com/BotInABoxER/codercar/master/codercar-logo-animated.gif" alt="codeRcar's Logo"></p>
 
 From [https://www.thingiverse.com/thing:3334545](https://www.thingiverse.com/thing:3334545)
 
