@@ -1,76 +1,63 @@
-# Contributor Covenant Code of Conduct
+# The OverScore Commitment - v. 1.0.0
 
-## Our Pledge
+CodeRcar is meant to be a user-friendly, contribution-friendly project. However, because some people just
+don't seem to know what that means, this project has a code-of-conduct that we ask all contributors to follow.
+If this code seems a bit obvious to you, it should, since most of it is simple stuff, anyway.
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+## Why?
 
-## Our Standards
+It's just basic common sense that people generally want to be treated fairly. Thus, any personal attacks against,
+the use of crude/hurtful/derogatory language in conversation with, or the trolling/stalking/harassment of any fellow
+contributors IRL/online isn't going to be tolerated.
 
-Examples of behavior that contributes to creating a positive environment
-include:
+That is not to say that contributors should not be free to speak their minds, or that any hint of derision will be
+immediately and forcefully crushed. But, a rule of thumb in this case is that, if it can't be fun for somebody,
+it shouldn't be fun for anybody.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+## What?
 
-Examples of unacceptable behavior by participants include:
+When it comes to criticism, obviously remember that somebody's code is not them. Feel free to give constructive, honest,
+non-biased criticism of any code submissions. However, a contributor's code is *all* you should be criticising.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
- advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
- address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
- professional setting
+For example, it's fine to comment that a fellow contributor's code is not syntactically-correct, won't run in the way it's
+written, or goes against the project's style guides (or is drastically different from any other code in the project).
 
-## Our Responsibilities
+If it's bad code, it's bad code; there's no way around that. If it won't run, doesn't do what it should, isn't necessary,
+is spurious, is incorrectly-formatted, doesn't pass through a reasonable linter without errors, or uses outdated or deprecated
+functions, methods, dependencies, etc., it very well may be bad code, and it's never really worth sacrificing code quality for
+any reason.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+It's also fine to say that a contributor's code could use a bit of tweaking. Examples of tweaking can include refactoring,
+adding comments, whitespace, or more-informative variable names for the sake of clarity, or updating to use features
+present in newer versions of the language in which it was written - obviously.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+But it's *never* fine to up and attack/insult a contributor personally because you don't like their code. Harrassing someone
+because of their assumed experience, coding skill, or intelligence, etc. - especially things they can't control
+about themselves - is uncalled for and directly goes against this code-of-conduct.
 
-## Scope
+Every one of us is different - there's no denying that fact. Our differences often define us, and sometimes are used to
+divide us. But, in the world of open-source, our differences really don't have to matter. Whoever you are, whatever you do,
+whatever others think about you - if you have an idea for a contribution, you should be able to voice it. If you aren't able
+to code up a contribution yourself, it's fine to just make a suggestion.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+That being said, it's important to remember that this open-source project is not a commercial software product. You as a user
+aren't paying to use it, and there's no warranty or service package real or implied. No one has the right to force anything
+upon the contributors of this project, and contributors should never feel as if they're obligated to integrate a
+feature or update. All contributions should be done out of generosity, goodwill, and a desire to contribute to open-source
+development - not obligation or requirement.
 
-## Enforcement
+Furthermore, if you are contributing, make sure that the code you're suggesting belongs to you or you have the right to use it.
+If it comes from an existing open-source project, make sure you cite the source and are abiding by that project's license -
+and that it isn't plagiarised from another open-source project or hacked out of the decompiled source code of a commercial
+piece of software. But you already knew that, didn't you?
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at matthew@botinabox.ca. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+Finally, the project's authors reserve the right to accept/reject any pull requests, open/close any issues, and generally
+moderate the project and enforce its code-of-conduct - obviously.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+## How?
 
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-
-[homepage]: https://www.contributor-covenant.org
-
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+Any blatant breaches of this code-of-conduct should be reported to [matthew@botinabox.ca] with the
+subject "CodeRcar - Code-of-Conduct Breach Detected". Doing this allows the project's authors to figure out what to 
+do about it - the authors reserve the right to review all reports. Except in cases where the details have to be kept 
+private (like in cases that involve private data or legal stuff), a disclosure of the report will be made publicly, via an
+issue on this project's repository that will remain open as a PSA.
